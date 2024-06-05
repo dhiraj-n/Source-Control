@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[test]
+(
+[rollNum] [int] NOT NULL,
+[name] [varchar] (50) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[test] ADD CONSTRAINT [PK__Test123__895A2A32E767887B] PRIMARY KEY CLUSTERED ([rollNum]) ON [PRIMARY]
+GO
