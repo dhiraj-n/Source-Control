@@ -5,6 +5,6 @@ CREATE TABLE [dbo].[User]
 [lname] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
 [test] [int] NULL,
 [addr] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
-[new] [int] NULL
+[favcolor] [nchar] (10) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
 ) ON [PRIMARY]
 GO
